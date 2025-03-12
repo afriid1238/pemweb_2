@@ -1,0 +1,187 @@
+/* Styling umum untuk section login */
+#login {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+#login h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button styling */
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+/* Link styling */
+.form-group a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-group a:hover {
+    text-decoration: underline;
+}
+
+.developer-profile {
+    background-color: #f7f7f7;
+    padding: 30px 0;
+    text-align: center;
+ }
+ 
+ .developer-profile h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+ }
+ 
+ .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+ }
+ 
+ .profile-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ 
+ .profile-info {
+    max-width: 500px;
+    text-align: left;
+ }
+ 
+ .profile-info h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+ }
+ 
+ .profile-info p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+ }
+ 
+ .social-links a {
+    margin-right: 15px;
+    color: #007bff;
+    text-decoration: none;
+ }
+ 
+ .social-links a:hover {
+    text-decoration: underline;
+ }
+
+
+ .developer-profile {
+    background-color: #f7f7f7;
+    padding: 30px 0;
+    text-align: center;
+ }
+ 
+ .developer-profile h4 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+ }
+ 
+ .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+ }
+ 
+ .profile-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ 
+ .profile-info {
+    max-width: 500px;
+    text-align: left;
+ }
+ 
+ .profile-info h5 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+ }
+ 
+ .profile-info p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+ }
+ 
+ .social-links a {
+    margin-right: 15px;
+    color: #007bff;
+    text-decoration: none;
+ }
+ 
+ .social-links a:hover {
+    text-decoration: underline;
+ }
