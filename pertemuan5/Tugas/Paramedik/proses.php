@@ -45,7 +45,7 @@ if ($proses == "simpan") {
     $stmt->execute([$id]);
 
     // Redirect setelah hapus
-    header("Location: list_paramedik.php");
+    header("Location: list.php");
     exit;
 
 } else {
@@ -58,6 +58,6 @@ $stmt = $dbh->prepare($sql);
 $stmt->execute($ar_data);
 
 // Redirect setelah simpan/update
-header("Location: list_paramedik.php");
+header("Location: list.php");
 exit;
 ?>
